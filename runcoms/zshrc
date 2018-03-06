@@ -11,3 +11,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias l='ls -lisah'
+alias ls='ls -lisah'
+alias gtst='git status'
+alias git cm='git commit -m'
+alias Code='cd ~/Code'
+
+# Folder colors
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
